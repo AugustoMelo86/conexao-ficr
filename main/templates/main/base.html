@@ -10,6 +10,8 @@
     <ul>
         <li><a href="{% url 'home' %}">Home</a></li>
         <li><a href="{% url 'pessoa.index' %}">Pessoas</a></li>
+        {% block content %}
+        {% endblock content %}
     </ul>
 </body>
 </html>
